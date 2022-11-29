@@ -1,6 +1,6 @@
 export function returnHello()
 {
-
+ return 'Hello';
 }
 
 export function returnAString()
