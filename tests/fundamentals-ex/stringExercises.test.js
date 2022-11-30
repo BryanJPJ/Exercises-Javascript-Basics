@@ -1,4 +1,4 @@
-import { concatenateStrings, returnAString, returnHello } from "../../src/fundamentals-ex/stringExercises";
+import { concatenateStrings, replaceFishWords, returnAString, returnHello } from "../../src/fundamentals-ex/stringExercises";
 
 describe('Variables can be a string', () => {
     test ('should say Hello', () => {
@@ -42,7 +42,7 @@ describe('Variables can be a string', () => {
     test ('should return "Give a Man a Pussy Cat" ', () => {
         /* Añade las líneas necesarias al test / Modifica la function replaceFishWords */
         let phrase = 'Give a Man a Fish';
-        let result = phrase.replace("Fish","Pussy Cat");
+        let result = replaceFishWords();
         expect(result).toBe('Give a Man a Pussy Cat');
     });
 

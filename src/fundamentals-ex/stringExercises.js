@@ -31,7 +31,9 @@ export function replaceFishWords()
 {
 
     let phrase = 'Give a Man a Fish';
-    return 'Give a Man a Pussy Cat'
+    let result = phrase.replace("Fish","Pussy Cat");
+    console.log(result);
+    return result;
     
 }
 
